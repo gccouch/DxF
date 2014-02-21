@@ -212,22 +212,24 @@ h1.nav_logo {
     color: #656565;
     font-weight: 900;
     line-height: 82px;
-    font-family: 'proxima-nova' sans-serif;
+    font-family: "proxima-nova",sans-serif;
   
   }
    
   }
 
   #page3 h2 {
-    font-family: 'proxima-nova' sans-serif;
+
+    font-family: "proxima-nova",sans-serif;
     font-size: 35px;
     color:#32bff2;
     font-weight: 900;
        
   }
 
- #page2 p {
+ #page3 p {
     font-size: 35px;
+    font-family: "proxima-nova",sans-serif;
     line-height: 45px;
     color: #656565;
     font-weight: 100;
