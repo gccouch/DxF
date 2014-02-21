@@ -96,35 +96,46 @@ h1.nav_logo {
 /************** PAGE 1 LANDING ***************/
 
   #page1 {
-    background:url(../img/bg_10.jpg) no-repeat center center fixed; 
-    height:100%;
+    background:#1fcdf2; 
+    height:60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding:15% 0 0 0;
+    padding:10% 0 0 0;
     text-align:center;
   }
+
+  .bg { background: #000;}
 
 /************** PAGE 2 ABOUT ***************/
 
   #page2 {
-   background:url(../img/page5_2.png) repeat; 
-    height:100%;
-    padding:8% 0 0 0; 
+   background:#FFF; 
+    text-align: left;
   }
 
   #page2 h1 {
-    font-size: 5em;
-    color:#fff;
+    font-size: 85px;
+    color: #656565;
+    font-weight: 900;
+    padding: 10% 0 0 0;
 
   }
 
   #page2 p {
-    font-size: 1em;
-    color:#fff;
+    font-size: 35px;
+    line-height: 45px;
+    color: #656565;
+    padding: 0 0 10% 0;
+    font-weight: 100;
 
   }
+
+.about_left {
+  padding: 5%;
+  background: #393188;
+}
 
 /************** SLIDER ***************/
 
