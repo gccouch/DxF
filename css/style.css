@@ -1,12 +1,132 @@
 
-
+/************** Wufoo ***************/
+ 
  ul.wufoo_form {
    margin:0px !important; 
    padding:0px !important;
    list-style-type: none !important;
  }
 
-.sponsor { background: #000;}
+/************** Global ***************/
+
+  h1 {
+    font-family: "proxima-nova",sans-serif;
+    font-weight: 700;
+    line-height: 1.1em;
+    font-size: 46px;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    }
+
+  h2 {
+      font-family: 'Droid Serif', serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 20px;
+      line-height: 23px;
+      margin: 0 0 23px 0;
+      }
+
+    p {
+        font-family: "proxima-nova",sans-serif;
+        font-size: 1.5em;
+        line-height: 1.7em;
+        margin: 0 0 23px 0;
+        }
+
+  .logo {
+    margin:20px 0 60px 0;
+  }
+
+   .button_new {
+      user-select: none;
+      width: 300px;
+      text-align: center;
+      cursor: pointer;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      -ms-border-radius: 0px;
+      -o-border-radius: 0px;
+      border-radius: 0px;
+      color: #FFFFFF;
+      border: 3px solid #FFFFFF;
+      display: block;
+      position: relative;
+      margin: auto;
+      height: 60px;
+      line-height: 53px;
+      -webkit-transition: all 200ms ease-in-out;
+      -moz-transition: all 200ms ease-in-out;
+      -o-transition: all 200ms ease-in-out;
+      transition: all 200ms ease-in-out;
+      text-transform: uppercase;
+      font-family: 'Proxima Nova', Arial, Sans-serif;
+      font-weight: 100;
+      text-decoration: none;
+      font-size: 18px;
+  }
+
+.button_new:hover {
+  background:#fff;
+
+}
+.top-nav {display:none !important;}
+
+/************** Navigation ***************/
+
+  #navigation {
+    height:50px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:url(../img/nav_bg.png);
+    z-index:100;
+    }
+
+  .bottom_text {
+    padding:20px;
+  }
+
+h1.nav_logo { 
+  font-family: "proxima-nova",sans-serif;
+  font-weight: 100;
+  
+}
+
+/************** PAGE 1 LANDING ***************/
+
+  #page1 {
+    background:url(../img/bg_10.jpg) no-repeat center center fixed; 
+    height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:15% 0 0 0;
+    text-align:center;
+  }
+
+/************** PAGE 2 ABOUT ***************/
+
+  #page2 {
+   background:url(../img/page5_2.png) repeat; 
+    height:100%;
+    padding:8% 0 0 0; 
+  }
+
+  #page2 h1 {
+    font-size: 5em;
+    color:#fff;
+
+  }
+
+  #page2 p {
+    font-size: 1em;
+    color:#fff;
+
+  }
+
+/************** SLIDER ***************/
 
 .orbit-bullets li {
   display: inline-block;
@@ -57,77 +177,8 @@
     display: none;    
 }
 
-  h1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    line-height: 1.1em;
-    font-size: 46px;
-    text-transform: uppercase;
-    margin: 0 0 23px 0;
-    }
 
-  h2 {
-      font-family: 'Droid Serif', serif;
-      font-weight: 400;
-      font-style: italic;
-      font-size: 20px;
-      line-height: 23px;
-      margin: 0 0 23px 0;
-      }
-
-    p {
-        font-family: 'Droid Serif', serif;
-        font-size: 1.5em;
-        line-height: 1.7em;
-        margin: 0 0 23px 0;
-        }
-
-  .logo {
-    margin:20px 0 60px 0;
-  }
-
-
-  #navigation {
-    height:50px;
-    position:fixed;
-    bottom:0;
-    width:100%;
-    background:url(../img/nav_bg.png);
-    z-index:100;
-    }
-
-  .bottom_text {
-    padding:20px;
-  }
-
-  #page1 {
-    background:url(../img/bg_10.jpg) no-repeat center center fixed; 
-    height:100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding:15% 0 0 0;
-    text-align:center;
-  }
-
-  #page2 {
-   background:url(../img/page5_2.png) repeat; 
-    height:100%;
-    padding:8% 0 0 0; 
-  }
-
-  #page2 h1 {
-    font-size: 5em;
-    color:#fff;
-
-  }
-
-  #page2 p {
-    font-size: 1em;
-    color:#fff;
-
-  }
+/****** PAGE 3 SIGN UP ***************/
 
   #page3 {
     background:url(../img/bg_10.jpg) no-repeat center center fixed; 
@@ -136,7 +187,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding:8% 0 0 0;
+    padding:12% 0 0 0;
    
   }
 
@@ -145,6 +196,8 @@
       line-height: 1.1em;
    
   }
+
+  /************** PAGE 4 THE PROJECT ***************/
 
   #page4 {
    background:url(../img/bg_3.jpg) no-repeat center center fixed; 
@@ -157,6 +210,7 @@
     text-align:center;
   }
 
+/************** PAGE 4 THE DESIGNERS ***************/
   #page5 {
    background:url(../img/bg_10.jpg) no-repeat center center fixed; 
     height:100%;
@@ -168,6 +222,7 @@
     text-align:center;
   }
 
+/************** PAGE 4 THE JUDGES***************/
   #page6 {
    background:url(../img/bg_3.jpg) no-repeat center center fixed; 
     height:100%;
@@ -178,6 +233,8 @@
     padding:15% 0 0 0;
     text-align:center;
   }
+
+/************** PAGE 4 THE SPONSORS**************/
 
 #page7 {
    background:url(../img/bg_07.png) no-repeat center center fixed; 
@@ -190,41 +247,11 @@
     text-align:center;
   }
 
+.sponsor { background: #000;}
 
-  .button_new {
-      user-select: none;
-      width: 300px;
-      text-align: center;
-      cursor: pointer;
-      -webkit-border-radius: 0px;
-      -moz-border-radius: 0px;
-      -ms-border-radius: 0px;
-      -o-border-radius: 0px;
-      border-radius: 0px;
-      color: #FFFFFF;
-      border: 3px solid #FFFFFF;
-      display: block;
-      position: relative;
-      margin: auto;
-      height: 60px;
-      line-height: 53px;
-      -webkit-transition: all 200ms ease-in-out;
-      -moz-transition: all 200ms ease-in-out;
-      -o-transition: all 200ms ease-in-out;
-      transition: all 200ms ease-in-out;
-      text-transform: uppercase;
-      font-family: 'Proxima Nova', Arial, Sans-serif;
-      font-weight: 100;
-      text-decoration: none;
-      font-size: 18px;
-  }
 
-.button_new:hover {
-  background:#fff;
-
-}
-.top-nav {display:none !important;}
-
+ 
+/************** MEDIA QUIERIES **************/
 
 @media (max-width: 600px) {
   nav {
