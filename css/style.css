@@ -208,8 +208,13 @@ h1.nav_logo {
   }
 
     #page3 h1 {
-      font-size: 5em;
-      line-height: 1.1em;
+    font-size: 85px;
+    color: #656565;
+    font-weight: 900;
+    line-height: 82px;
+    font-family: 'proxima-nova' sans-serif;
+  
+  }
    
   }
 
@@ -220,7 +225,7 @@ h1.nav_logo {
     font-weight: 900;
        
   }
-  
+
  #page2 p {
     font-size: 35px;
     line-height: 45px;
@@ -231,7 +236,7 @@ h1.nav_logo {
 
   #page3 .box { 
     background: #fff;
-    padding: 20px;
+    padding: 50px;
     margin-bottom: 15px;
   }
 
