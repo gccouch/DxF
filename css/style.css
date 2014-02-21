@@ -221,7 +221,7 @@ h1.nav_logo {
     color: #fff;
     font-weight: 900;
     line-height: 82px;
-    font-family: "proxima-nova",sans-serif;
+    
   
   }
    
@@ -237,11 +237,12 @@ h1.nav_logo {
   }
 
  #page3 p {
-    font-size: 35px;
+    font-size: 21px;
     font-family: "proxima-nova",sans-serif;
-    line-height: 45px;
-    color: #656565;
+    line-height: 31px;
+    color: #FFFFFF;
     font-weight: 100;
+    letter-spacing: -1px
   }
 
 
