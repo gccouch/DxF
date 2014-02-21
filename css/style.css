@@ -110,24 +110,38 @@ h1.nav_logo {
 
 /************** PAGE 2 ABOUT ***************/
 
+#page2 .button_new {
+    border-radius: 0px;
+    color: #656565;
+    border: 3px solid #656565;
+    float:left;
+  
+    }
+
+ #page2 .button_new:hover {
+      background:#656565;
+      color:#fff;
+  }
+
   #page2 {
    background:#FFF; 
     text-align: left;
+    padding: 15% 0 15% 0;
   }
 
   #page2 h1 {
     font-size: 85px;
     color: #656565;
     font-weight: 900;
-    padding: 10% 0 0 0;
-
+    line-height: 82px;
+  
   }
 
   #page2 p {
     font-size: 35px;
     line-height: 45px;
     color: #656565;
-    padding: 0 0 10% 0;
+   
     font-weight: 100;
 
   }
