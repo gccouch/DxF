@@ -18,14 +18,6 @@
     margin: 0 0 23px 0;
     }
 
-  h2 {
-      font-family: 'Droid Serif', serif;
-      font-weight: 400;
-      font-style: italic;
-      font-size: 20px;
-      line-height: 23px;
-      margin: 0 0 23px 0;
-      }
 
     p {
         font-family: "proxima-nova",sans-serif;
@@ -206,13 +198,12 @@ h1.nav_logo {
 /****** PAGE 3 SIGN UP ***************/
 
   #page3 {
-    background:url(../img/bg_10.jpg) no-repeat center center fixed; 
-    height:100%;
+    background:#32bff2; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding:12% 0 0 0;
+    padding:12% 0 12% 0;
    
   }
 
@@ -220,6 +211,28 @@ h1.nav_logo {
       font-size: 5em;
       line-height: 1.1em;
    
+  }
+
+  #page3 h2 {
+    font-family: 'proxima-nova' sans-serif;
+    font-size: 35px;
+    color:#32bff2;
+    font-weight: 900;
+       
+  }
+  
+ #page2 p {
+    font-size: 35px;
+    line-height: 45px;
+    color: #656565;
+    font-weight: 100;
+  }
+
+
+  #page3 .box { 
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
   }
 
   /************** PAGE 4 THE PROJECT ***************/
