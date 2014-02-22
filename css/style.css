@@ -217,7 +217,7 @@ h1.nav_logo {
   border-right-color: #32bff2; 
 }
 
-.how_1 { padding-top: 20px;}
+.how_1 { padding: 20px;}
 
 
 /****** PAGE 3 SIGN UP ***************/
@@ -246,7 +246,7 @@ h1.nav_logo {
   #page3 h2 {
 
     font-family: "proxima-nova",sans-serif !important;
-    font-size: 35px;
+    font-size: 45px;
     color:#32bff2;
     font-weight: 900;
        
@@ -258,7 +258,8 @@ h1.nav_logo {
     line-height: 31px;
     color: #656565;
     font-weight: 100;
-    letter-spacing: -1px
+    letter-spacing: -1px;
+    width: 95%;
   }
 
 
