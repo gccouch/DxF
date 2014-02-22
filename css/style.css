@@ -115,8 +115,8 @@ h1.nav_logo {
     border-radius: 0px;
     color: #656565;
     border: 3px solid #656565;
-    float:left;
-  
+    margin-top: 100px;
+ 
     }
 
  #page2 .button_new:hover {
@@ -135,6 +135,7 @@ h1.nav_logo {
     color: #656565;
     font-weight: 900;
     line-height: 82px;
+    text-align: center;
   
   }
 
@@ -142,7 +143,7 @@ h1.nav_logo {
     font-size: 35px;
     line-height: 45px;
     color: #656565;
-   
+   text-align: center;
     font-weight: 100;
 
   }
@@ -156,42 +157,43 @@ h1.nav_logo {
 
 .orbit-bullets li {
   display: inline-block;
-  width: 10.5625rem;
+  width: 1.5625rem;
   height: 1.5625rem;
-  background: #1F1F20 !important;
+  background: #2ca3ce !important;
   float: none;
   margin-right: 6px;
   -webkit-border-radius: 1000px;
   border-radius: 1000px;
+    transition: .5s;
 }
 
 .orbit-bullets li.active {
-  background: #03FFF5 !important;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #fff !important;
 }
 
- .orbit-bullets li {
-  display: inline-block;
-  width: 10.5625rem;
-  height: 1.5625rem;
-  background: #344170;
-  float: none;
-  margin-right: 6px;
-  -webkit-border-radius: 1000px;
-  border-radius: 1000px;
+.orbit-bullets li:hover {
+  width: 1.8rem;
+  height: 1.8rem;
+  background: yellow;
+
 }
 
-  .orbit-container {
+ 
+.orbit-container {
     overflow: hidden;
     width: 100%;
     position: relative;
     background: none;
-    height:100% !important;
-  }
+    height: 367px;
+    display: block;
+}
   
   .orbit-bullets-container {
     text-align: center;
     position:relative;
-    bottom:-80%;
+    bottom:-87%;
     ;
   }
 
@@ -202,6 +204,20 @@ h1.nav_logo {
   .orbit-container .orbit-timer {
     display: none;    
 }
+
+.orbit-container .orbit-next > span {
+  border-color: transparent;
+  border-left-style: solid;
+  border-left-color: #32bff2;
+  left: 50%;
+  margin-left: -4px;
+}
+
+.orbit-container .orbit-prev > span {
+  border-right-color: #32bff2; 
+}
+
+.how_1 { padding-top: 20px;}
 
 
 /****** PAGE 3 SIGN UP ***************/
@@ -220,12 +236,12 @@ h1.nav_logo {
     font-size: 85px;
     color: #fff;
     font-weight: 900;
-    line-height: 82px;
-    
-  
+    line-height: 82px;  
+    padding-bottom: 100px; 
+    text-align: center;
   }
    
-  }
+  
 
   #page3 h2 {
 
@@ -240,7 +256,7 @@ h1.nav_logo {
     font-size: 21px;
     font-family: "proxima-nova",sans-serif;
     line-height: 31px;
-    color: #FFFFFF;
+    color: #656565;
     font-weight: 100;
     letter-spacing: -1px
   }
@@ -250,6 +266,20 @@ h1.nav_logo {
     background: #fff;
     padding: 50px;
     margin-bottom: 15px;
+  }
+
+  .characters {
+    padding-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
+  }
+
+  .arrow_down {
+    padding-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right:  auto;
   }
 
   /************** PAGE 4 THE PROJECT ***************/
