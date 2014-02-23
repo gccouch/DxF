@@ -98,7 +98,7 @@ h1.nav_logo {
 
   #page1 {
     background:#1fcdf2; 
-    height:60%;
+    height:95%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -228,7 +228,7 @@ h1.nav_logo {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding:12% 0 0 0;
+    padding:7% 0 0 0;
     text-align: center;
    
   }
@@ -238,7 +238,6 @@ h1.nav_logo {
     color: #fff;
     font-weight: 900;
     line-height: 82px;  
-    padding-bottom: 100px; 
     text-align: center;
     letter-spacing: -1px;
   }
@@ -263,7 +262,7 @@ h1.nav_logo {
     letter-spacing: -1px;
   }
 
-.clouds { padding-bottom: 15%;}
+.clouds { padding-bottom: 5%;}
 
   .characters {
     padding-top: 25px;
@@ -279,60 +278,62 @@ h1.nav_logo {
     margin-right:  auto;
   }
 
-  .info_1 { 
+  .arrow { padding: 5% 0 5% 0;}
+
+ #info_1 { 
     background: #2ca3ce;
     text-align: center;
-    padding: 5% 0 5% 0;
+    padding: 10% 0 10% 0;
   }
 
- .info_1 h2 {
+ #info_1 h2 {
     font-family: "proxima-nova",sans-serif !important;
-    font-size: 45px;
+    font-size: 55px;
     color:#fff;
     font-weight: 900;
        
   }
 
-  .info_1 p {
-    font-size: 21px;
+  #info_1 p {
+    font-size: 39px;
     font-family: "proxima-nova",sans-serif;
-    line-height: 31px;
+    line-height: 45px;
     color: #fff;
     font-weight: 100;
     letter-spacing: -1px;
   }
 
 
-  .info_2 { 
+  #info_2 { 
      background: #31bdf2;
      text-align: center;
-     padding: 5% 0 5% 0;
+     padding: 10% 0 10% 0;
   }
 
-  .info_2 h2 {
+  #info_2 h2 {
     font-family: "proxima-nova",sans-serif !important;
-    font-size: 45px;
+    font-size: 55px;
     color:#fff;
     font-weight: 900;
        
   }
 
-  .info_2 p {
-    font-size: 21px;
+  #info_2 p {
+    font-size: 39px;
     font-family: "proxima-nova",sans-serif;
-    line-height: 31px;
+    line-height: 45px;
     color: #fff;
     font-weight: 100;
     letter-spacing: -1px;
   }
 
-  .info_3 { 
+  #info_3 { 
     background: #2ca3ce;
     text-align: center;
     padding: 5% 0 5% 0;
   }
 
-  .info_3 h2 {
+  #info_3 h2 {
     font-family: "proxima-nova",sans-serif !important;
     font-size: 45px;
     color:#fff;
@@ -340,10 +341,10 @@ h1.nav_logo {
        
   }
 
-  .info_3 p {
-    font-size: 21px;
+  #info_3 p {
+    font-size: 39px;
     font-family: "proxima-nova",sans-serif;
-    line-height: 31px;
+    line-height: 45px;
     color: #fff;
     font-weight: 100;
     letter-spacing: -1px;
