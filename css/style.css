@@ -223,12 +223,12 @@ h1.nav_logo {
 /****** PAGE 3 SIGN UP ***************/
 
   #page3 {
-    background:#32bff2; 
+    background:url('..img/page3.png')#31bdf2; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding:12% 0 12% 0;
+    padding:12% 0 0 0;
    
   }
 
@@ -262,12 +262,6 @@ h1.nav_logo {
   }
 
 
-  #page3 .box { 
-    background: #fff;
-    padding: 50px;
-    margin-bottom: 15px;
-  }
-
   .characters {
     padding-top: 25px;
     display: block;
@@ -280,6 +274,83 @@ h1.nav_logo {
     display: block;
     margin-left: auto;
     margin-right:  auto;
+  }
+
+  .info_1 { 
+    background: #2ca3ce;
+    text-align: center;
+    padding: 5% 0 5% 0;
+  }
+
+ .info_1 h2 {
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 45px;
+    color:#fff;
+    font-weight: 900;
+       
+  }
+
+  .info_1 p {
+    font-size: 21px;
+    font-family: "proxima-nova",sans-serif;
+    line-height: 31px;
+    color: #656565;
+    font-weight: 100;
+    letter-spacing: -1px;
+  }
+
+
+  .info_2 { 
+     background: #31bdf2;
+     text-align: center;
+     padding: 5% 0 5% 0;
+  }
+
+  .info_2 h2 {
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 45px;
+    color:#fff;
+    font-weight: 900;
+       
+  }
+
+  .info_2 p {
+    font-size: 21px;
+    font-family: "proxima-nova",sans-serif;
+    line-height: 31px;
+    color: #656565;
+    font-weight: 100;
+    letter-spacing: -1px;
+  }
+
+  .info_3 { 
+    background: #2ca3ce;
+    text-align: center;
+    padding: 5% 0 5% 0;
+  }
+
+  .info_3 h2 {
+    font-family: "proxima-nova",sans-serif !important;
+    font-size: 45px;
+    color:#fff;
+    font-weight: 900;
+       
+  }
+
+  .info_3 p {
+    font-size: 21px;
+    font-family: "proxima-nova",sans-serif;
+    line-height: 31px;
+    color: #656565;
+    font-weight: 100;
+    letter-spacing: -1px;
+  }
+
+  .bottom_chars {
+    background: #31bdf2;
+     text-align: center;
+     padding: 5% 0 5% 0;
+
   }
 
   /************** PAGE 4 THE PROJECT ***************/
