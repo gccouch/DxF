@@ -223,7 +223,7 @@ h1.nav_logo {
 /****** PAGE 3 SIGN UP ***************/
 
   #page3 {
-    background:url('..img/page3.png')#31bdf2; 
+     background:#31bdf2 url(../img/page_3.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -294,7 +294,7 @@ h1.nav_logo {
     font-size: 21px;
     font-family: "proxima-nova",sans-serif;
     line-height: 31px;
-    color: #656565;
+    color: #fff;
     font-weight: 100;
     letter-spacing: -1px;
   }
@@ -318,7 +318,7 @@ h1.nav_logo {
     font-size: 21px;
     font-family: "proxima-nova",sans-serif;
     line-height: 31px;
-    color: #656565;
+    color: #fff;
     font-weight: 100;
     letter-spacing: -1px;
   }
@@ -341,7 +341,7 @@ h1.nav_logo {
     font-size: 21px;
     font-family: "proxima-nova",sans-serif;
     line-height: 31px;
-    color: #656565;
+    color: #fff;
     font-weight: 100;
     letter-spacing: -1px;
   }
