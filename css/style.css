@@ -88,6 +88,10 @@
     padding:20px;
   }
 
+  nav { background: none !important;}
+  nav.top-bar { background:none !important; }
+  ul.right { background: none !important;}
+
 h1.nav_logo { 
   font-family: "proxima-nova",sans-serif;
   font-weight: 100;
@@ -97,7 +101,7 @@ h1.nav_logo {
 /************** PAGE 1 LANDING ***************/
 
   #page1 {
-    background:#1fcdf2; 
+    background:#32bff2; 
     height:95%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -228,7 +232,7 @@ h1.nav_logo {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    padding:7% 0 0 0;
+    padding:10% 0 0 0;
     text-align: center;
    
   }
@@ -281,7 +285,11 @@ h1.nav_logo {
   .arrow { padding: 5% 0 5% 0;}
 
  #info_1 { 
-    background: #2ca3ce;
+    background: #2ca3ce url(../img/info_1.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     text-align: center;
     padding: 10% 0 10% 0;
   }
